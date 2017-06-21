@@ -1,0 +1,56 @@
+site_name: Openfield Api Documentation
+theme: material
+pages:
+    - Overview: Overview.md
+    - Web Api Openfield: index.md
+    - Web Api Products: Products.md
+    - Web Api Orders: Orders.md
+    - Web Api Parties: Parties.md
+    - Web Api Events: Events.md
+    - Web Api Passages: Passages.md
+    - Web Api Devices: Devices.md
+    - Web Api Tickets: Tickets.md
+    - About: about.md
+    
+# Copyright
+copyright: 'Copyright &copy; 2016 - 2017 Openfield'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite(guess_lang=true)
+  - toc(permalink=true)
+  - pymdownx.arithmatex
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
+  
+  # Options
+extra:
+  logo: 'img/logo.png'
+  palette:
+    primary: 'Red'
+    accent: 'Red'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+    
+    
+extra_javascript:
+  - 'javascripts/extra.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js'
+  
+  
